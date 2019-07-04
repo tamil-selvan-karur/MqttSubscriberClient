@@ -78,5 +78,4 @@ public class SubscriberApp {
             return false;
         }
     }
-
 }

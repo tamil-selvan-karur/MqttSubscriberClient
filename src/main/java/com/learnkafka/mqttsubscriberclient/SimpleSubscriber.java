@@ -27,7 +27,6 @@ public class SimpleSubscriber implements MqttCallback {
         String receivedMessage = (new String(mm.getPayload())).toString();
         JSONObject receivedData = new JSONObject(receivedMessage);
         SubscriberApp.handleMessageFromTopic(receivedData);
-
     }
 
     @Override
